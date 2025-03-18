@@ -374,7 +374,12 @@ l2=[5,2]
 
 print("intersection :", inter(l1,l2))
 
+
 ```
+
+
+
+
 <div id="pad_4.2" class="pad"></div>
 <script>
     Pythonpad('pad_4.2', 
