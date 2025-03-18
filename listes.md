@@ -227,7 +227,20 @@ def argmax(liste):
 print(argmax([1, 6, 2, 4]))
 ```
 ````
+### Correction de l'exercice 
+l= [3,8,10,6,0,9]
+def argmax(l):
+  m,k =l[0],0
+  for i,e in enumerate(l):
+    if e>m:
+        m=e
+        k=i
+    return m,k
+  
+l= [3,8,10,6,0,9]
 
+ma, po =argmax(l)
+print("max :", ma,"----->",po)
 ## Manipulations de listes
 
 Nous présentons dans ce qui suit les opérations élémentaires de manipulation de listes.
