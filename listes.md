@@ -537,7 +537,15 @@ for p, n, a in zip(prenoms, noms, ages):
 
 Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de même taille.
 
-
+## Exercice & Correction 
+```
+l= [7,3,0,1,0,3,10]
+#effacer tous les zeros
+#apres execution : 
+while 0 in l:
+  l.remove(0)
+print(l)
+```
 
 ## Liste des exercices de ce chapitre
 
