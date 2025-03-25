@@ -541,7 +541,7 @@ Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de m√
 ```
 l= [7,3,0,1,0,3,10]
 #effacer tous les zeros
-#apres execution : 
+#apres execution : l= [7,3,1,3,10]
 while 0 in l:
   l.remove(0)
 print(l)
